@@ -15,11 +15,11 @@ spec:
         requests:
           cpu: '1'
           memory: 1Gi
-#  notebookController:
+  notebookController:
     enabled: true
     notebookNamespace: rhods-notebooks
     pvcSize: 5Gi
-    gpuSetting: '2'
+#    gpuSetting: '2'
   notebookSizes:
     - name: Standard
       resources:
